@@ -67,7 +67,7 @@ form {
 
 form button {
   width: 20%;
-  background-color: rgb(56, 56, 143);
+  background-color: #0b93f6;
 }
 
 
@@ -97,6 +97,7 @@ button {
 button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+  display: none;
 }
 
 
@@ -105,6 +106,7 @@ button:disabled {
   background: white;
   max-width: 400px;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 
@@ -151,4 +153,14 @@ img {
   height: 40px;
   border-radius: 50%;
   margin: 2px 5px;
+}
+
+header img {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 0;
+}
+
+header button {
+  border-radius: 10px;
 }
